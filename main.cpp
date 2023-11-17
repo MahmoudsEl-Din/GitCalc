@@ -39,14 +39,10 @@ int main() {
                 break;	
             case '%':
                 cout << "Result: " << GitCalc::mod((int)num1, (int)num2) << endl;
-                break;					
-			/*
-			.
-			.
-			.
-			.
-			*/
-			
+                break;				
+			case '-':
+				cout << "Result: " << GitCalc::sub(num1, num2) << endl;
+				break;
             default:
                 cout << "Invalid operation!" << endl;
         }

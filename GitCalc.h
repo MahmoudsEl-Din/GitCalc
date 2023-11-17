@@ -5,6 +5,7 @@ class GitCalc {
 public:
     static double add(double a, double b);
     static double mod(int a, int b);
+	static double sub(int a,int b);
 /*
 *
 *

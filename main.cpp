@@ -36,6 +36,9 @@ int main() {
         switch (operation) {
             case '+':
                 cout << "Result: " << GitCalc::add(num1, num2) << endl;
+                break;	
+            case '%':
+                cout << "Result: " << GitCalc::mod((int)num1, (int)num2) << endl;
                 break;					
 			/*
 			.

@@ -40,8 +40,10 @@ int main() {
             case '%':
                 cout << "Result: " << GitCalc::mod((int)num1, (int)num2) << endl;
                 break;				
-	    case '-':
-	        cout << "Result: " << GitCalc::sub(num1, num2) << endl;
+			case '-':
+				cout << "Result: " << GitCalc::sub(num1, num2) << endl;
+			case '/':
+				cout << "Result: " << GitCalc::divide(num1, num2) << endl;
 		break;
 		case '*':
 	        cout << "Result: " << GitCalc::mul(num1, num2) << endl;

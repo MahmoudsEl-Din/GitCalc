@@ -45,6 +45,9 @@ int main() {
 			case '/':
 				cout << "Result: " << GitCalc::divide(num1, num2) << endl;
 		break;
+		case '*':
+	        cout << "Result: " << GitCalc::mul(num1, num2) << endl;
+		break;
 		/*
 		*
 		*

@@ -10,6 +10,10 @@ double GitCalc::sub(double a,double b)
 {
 	return a-b;
 }
+double GitCalc::mul(double a,double b)
+{
+	return a*b;
+}
 /*
 .
 .
